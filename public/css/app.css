@@ -81,13 +81,6 @@ h6 {
 .dropdown-item:hover {
 	color: #A3BBC2 !important;
 }
-.navbar-nav .nav-link.active, .dropdown-item.active {
-	color: #A3BBC2
-}
-.navbar-nav .nav-link {
-	transition: .3s !important;
-	color: #415464
-}
 
 .dropdown-header {
 	color: #415464;
@@ -182,19 +175,6 @@ h6 {
 	}
 }
 
-.badge-dark {
-	background-color: rgba(163, 194, 192, .1);
-	color: #2F424F;
-}
-
-.text-primary {
-	color: #A3BBC2!important
-}
-
-.border-primary {
-	border-color: #A3BBC2 !important;
-}
-
 .text-gray {
 	color: #f3f3f3
 }
@@ -259,14 +239,6 @@ h6 {
 	transition: .3s !important;
 	transition-delay: 0s;
 	transition-timing-function: ease-out
-}
-
-a {
-	transition: .3s !important
-}
-
-#info > div > div > div:nth-child(1) > div > a:hover {
-	color: #A3BBC2 !important;
 }
 
 .bg-transparent {
@@ -555,3 +527,4 @@ table.dataTable.no-footer {
 .dataTables_paginate {
 	margin: 25px 25px 25px 0;
 }
+
